@@ -27,7 +27,12 @@ We recommend to use the latest long-term support (LTS) version of Ubuntu (https:
 	$ # replace '<version>' below with yours from Step 1
 	$ git clone --depth 1 --branch <version> https://github.com/keenetic/keenetic-sdk.git
 	$ cd keenetic-sdk
-
+We check the availability of the necessary tag
+	# git tag
+If the tag is missing
+	# git tag -a 4.00.C.4.0-0
+ 	# git tag
+  
 ## Step 4. Unpack firmware
 
 	$ # replace '<firmware.bin>' below with the path to your firmware from Step 1
